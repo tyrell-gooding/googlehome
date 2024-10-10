@@ -1,0 +1,253 @@
+html {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(34, 34, 42);
+  }
+  
+  
+  .header {
+    /* font-size: 20px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font-weight: 600;
+   
+  }
+  .navlink {
+    /* display: flex; */
+    text-decoration: none;
+    font-size: 16px;
+    /* font-weight: 600; */
+    color: aliceblue;
+    margin-left: 20px;
+  
+  }  
+  
+  
+  /* ul {
+    list-style-type: none;
+    margin: 0px;
+    gap: 18px;
+    color: aliceblue;
+    
+  } */
+  
+  .nav-L, .nav-R {
+    display: flex;
+    text-decoration: none;
+    /* font-weight: 600; */
+    color: aliceblue;
+    /* margin-left: auto; */
+    /* margin: 20px; */
+    list-style-type: none;
+    
+  }
+/*   
+  .nav-R {
+    display: flex;
+    text-decoration: none;
+    font-weight: 600;
+    color: aliceblue;
+   
+    
+  } */
+   .container{
+    display: flex;
+   flex-direction: column;
+   }
+
+.container h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 20px;
+    position: relative;
+    color: aliceblue;
+    margin-top: 50px;
+    
+
+}
+
+.search {
+    width: 40%;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 14px; 
+    border-radius: 28px;
+    /* justify-content: center; */
+    background: #1c1c23;
+   margin: 0 auto;
+   font-size: 16px;
+    
+   
+}
+/* .search-icon{
+} */
+
+.search-bar{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 1.5rem;
+    width: 45em;
+    height: 4rem;
+    border: transparent;
+    justify-content: center;
+    font-size: 16px;
+    
+
+}
+
+input {
+
+     font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 14px;
+/* border: 1px solid black;
+font-size: 4rem; */
+background-color:  rgb(34, 34, 42);
+/* outline: none;
+border: none; */
+/* width: 45rem;
+align-items: center;
+border-radius: 4rem;
+height: 6vh;
+text-align: center; */
+border: none;
+outline: none;
+background: transparent;
+justify-content: center;
+
+}
+
+.search-buttons {
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+
+input:hover {
+cursor: text;
+}
+
+/* .solid-magnifying-glass {
+    display: flex;
+    height: 20px;
+    width: 12px;
+    border-radius: 1rem;
+    object-fit: contain; */
+    /* margin: 0 8px;
+    /* margin-left: 90%; */ 
+    /* z-index: 0; */
+
+
+/* .solid-microphone {
+  height: 20px;
+  width: 12px;
+  border-radius: 1rem;
+  object-fit: contain;
+  /* margin: 0 8px; */
+  /* margin-left: 30%; */
+
+ */
+
+/* .solid-image {
+    height: 20px;
+  width: 16px;
+  border-radius: 1rem;
+  object-fit: contain;
+  /* margin: 0 8px; */
+  /* margin-left: 20%; */
+  /* align-items: top; */
+
+
+ */
+
+/* #user-search {
+    
+} */
+
+
+#lucky-button {
+
+    font-family: Roboto, Arial, sans-serif;
+    overflow: hidden;
+    text-align: center;
+    /* z-index: 50; */
+    /* height: 34px; */
+    /* position: absolute;
+    left: 290px; */
+    /* margin: 0 auto; */
+    /* top: 83px; */
+    /* width: 111px; */
+    padding: 10px;
+    color: aliceblue;
+    font-size: 12px;
+    background: transparent;
+}
+
+.search-button {
+
+    font-family: Roboto, Arial, sans-serif;
+    overflow: hidden;
+    text-align: center;
+    /* z-index: 50; */
+    /* height: 34px;
+    position: absolute;
+    left: 290px; */
+    margin: 0 5px;
+    /* top: 83px; */
+    /* width: 111px; */
+    padding: 10px;
+    color: aliceblue;
+    font-size: 12px;
+    background: transparent;
+}
+
+footer {
+    display: flex;
+    /* text-decoration: none; */
+   position: absolute;
+    z-index: 100;
+    bottom: 0;
+    /* left: 0; */
+    width: 100%;
+    /* height: 4rem; */
+    background: rgb(34, 34, 42);
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.footlink {
+    /* display: flex; */
+    text-decoration: none;
+    font-size: 16px;
+    /* font-weight: 600; */
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.foot-R, .foot-L {
+    display: flex;
+    text-decoration: none;
+    /* font-weight: 600; */
+    color: aliceblue;
+    /* margin-left: auto; */
+    /* margin: 20px; */
+    list-style-type: none;
+}
+
+.climate-link {
+    text-decoration: none;
+    font-size: 16px;
+    /* font-weight: 600; */
+    color: aliceblue;
+}
